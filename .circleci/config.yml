@@ -1,13 +1,11 @@
 version: 2
-jobs:
-  build:
-    docker:
-      - image: debian:stretch
-    steps:
-      - checkout
-      - run:
-          name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Print the Current Time
-          command: date
+build:
+  docker:
+    - image: circleci/golang:1.9
+  steps:
+    - run:
+        command: |
+          git submodule sync
+          git submodule update --init
+          go get github.com/gohugoio/hugo
+          ./scripts/deploy.sh
