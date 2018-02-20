@@ -12,5 +12,5 @@ jobs:
           name: Deploy
           command: ./scripts/deploy.sh
       - run:
-          name: Print the Current Time
+          name: Print the Current Time2
           command: date
