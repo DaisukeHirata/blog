@@ -1,5 +1,5 @@
-baseurl = "https://github.com/DaisukeHirata/blog"
+baseURL = "https://daisukehirata.github.io/blog"
 languageCode = "en-us"
-title = "Daisuke Hirata Hugo Site Test"
+title = "Daisuke Hirata's Hugo Site"
 theme = "ananke"
 canonifyurls = true
