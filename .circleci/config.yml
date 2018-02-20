@@ -1,6 +1,7 @@
 version: 2
+
 jobs:
-  build:
+  deploy:
     branches:
       only:
         - master
@@ -11,3 +12,12 @@ jobs:
       - run:
           name: Deploy
           command: ./scripts/deploy.sh
+
+workflows:
+  version: 2
+  lint_and_deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: master
