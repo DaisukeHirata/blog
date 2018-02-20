@@ -1,11 +1,16 @@
 version: 2
 jobs:
-  docker:
-    - image: circleci/golang:1.9
-  steps:
-    - run:
-        command: |
-          git submodule sync
-          git submodule update --init
-          go get github.com/gohugoio/hugo
-          ./scripts/deploy.sh
+  build:
+    docker:
+      - image: circleci/golang:1.9
+    steps:
+      - checkout
+      - run:
+          name: install hugo
+          command: go get github.com/gohugoio/hugo
+      - run:
+          name: Deploy
+          command: ./scripts/deploy.sh
+      - run:
+          name: Print the Current Time
+          command: date
