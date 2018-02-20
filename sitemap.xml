@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://github.com/DaisukeHirata/blog/categories/</loc>
+    <loc>https://daisukehirata.github.io/blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/DaisukeHirata/blog/</loc>
+    <loc>https://daisukehirata.github.io/blog/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/DaisukeHirata/blog/tags/</loc>
+    <loc>https://daisukehirata.github.io/blog/tags/</loc>
     <priority>0</priority>
   </url>
   
