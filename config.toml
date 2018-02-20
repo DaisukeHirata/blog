@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseurl = "https://github.com/DaisukeHirata/blog"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Daisuke Hirata Hugo Site Test"
 theme = "ananke"
+canonifyurls = true
