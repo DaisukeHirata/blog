@@ -1,5 +1,0 @@
-baseurl = "https://github.com/DaisukeHirata/blog"
-languageCode = "en-us"
-title = "Daisuke Hirata Hugo Site Test"
-theme = "ananke"
-canonifyurls = true
