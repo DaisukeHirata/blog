@@ -2,12 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang:1.9
+      - image: felicianotech/docker-hugo:latest
     steps:
       - checkout
-      - run:
-          name: Install hugo
-          command: go get github.com/gohugoio/hugo
       - run:
           name: Deploy
           command: ./scripts/deploy.sh
