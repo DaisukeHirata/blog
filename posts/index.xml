@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daisuke Hirata Hugo Site Test</title>
-    <link>https://daisukehirata.github.io/blog/</link>
-    <description>Recent content on Daisuke Hirata Hugo Site Test</description>
+    <title>Posts on Daisuke Hirata Hugo Site Test</title>
+    <link>https://daisukehirata.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Daisuke Hirata Hugo Site Test</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Feb 2018 14:43:25 +0900</lastBuildDate>
     
-	<atom:link href="https://daisukehirata.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://daisukehirata.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
